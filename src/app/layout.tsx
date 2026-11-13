@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website", url: siteUrl, title: `${profile.name} — ${profile.role}`,
     description: profile.tagline, siteName: profile.name,
-    images: [{ url: "/og.svg", width: 1200, height: 630, alt: `${profile.name} — ${profile.role}` }],
+    images: [{ url: "/og.png", width: 1200, height: 627, alt: `${profile.name} — ${profile.role}` }],
   },
-  twitter: { card: "summary_large_image", title: `${profile.name} — ${profile.role}`, description: profile.tagline, images: ["/og.svg"] },
+  twitter: { card: "summary_large_image", title: `${profile.name} — ${profile.role}`, description: profile.tagline, images: ["/og.png"] },
 };
 
 export const viewport: Viewport = {
